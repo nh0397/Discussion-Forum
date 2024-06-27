@@ -1,0 +1,98 @@
+/* Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow for a floating effect */
+    position: relative;
+    z-index: 999; /* Ensure modal appears above other content */
+    max-width: 400px;
+    width: 100%;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100% !important;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-group textarea {
+    height: 100px;
+    background-color: #f9f9f9; /* Same background color as title */
+    color: black; /* Black font color */
+}
+
+.modal-button {
+    padding: 0.5rem 1rem;
+    background-color: #0d1b89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 30px;
+    width: 6rem;
+    text-align: center;
+    height: 3rem;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content button[disabled] {
+    opacity: 0.5; /* Reduce opacity of disabled button */
+}
+
+.character-count {
+    font-size: 0.8em;
+    color: #555;
+    margin-left: 5px;
+}
+
+.image-preview{
+    height: 70px;
+    width: 120px;
+    margin-bottom: 15px;
+}

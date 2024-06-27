@@ -1,0 +1,51 @@
+.home-page {
+    height: calc(94vh - 3rem);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #0d1b897a;
+    padding-top: 20px;
+}
+
+.modal{
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
+    z-index: 100;
+
+}
+
+.post-container{
+    height: calc(94vh - 3rem);
+    max-width: 100%;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+.no-posts-message{
+    margin:auto;
+    font-size: 70px;
+}
+
+.sort-by-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 13px;
+}
+
+.sort-by-container label {
+    margin-right: 0.5rem;
+    color: white; /* Adjust as needed */
+}
+
+.sort-by-container select {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,90 @@
+.post-info {
+    width: 285px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .post-info:hover {
+    background-color: #f0f0f032;
+  }
+  
+  .post-title {
+    font-weight: bold;
+  }
+  
+  .post-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .post-value {
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Display ellipses at the end */
+  }
+
+  .like-dislike{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+  }
+  
+  .post-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .post-description {
+    max-height: 3.6em; /* Two lines with 1.8em line height */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .post-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    color: #777;
+  }
+  
+  .like-dislike {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .like-icon,
+  .dislike-icon {
+    margin-right: 5px;
+    color: #ffffff;
+  }
+  
+  .like-count,
+  .dislike-count {
+    margin-right: 15px;
+  }
+  
+  .author-name,
+  .created-at {
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Display ellipses at the end */
+    color: #ccc;
+  }

@@ -1,0 +1,123 @@
+
+.full-container-signup {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear-gradient(#e2e2e2, rgba(4, 90, 139, 0.7)), url(../../images/studying-pic-648.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #0d1b89);
+  }
+  
+  .welcome-container {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .welcome-container h10 {
+    font-size: 5vw; /* Scaling font size based on viewport width */
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  .welcome-container p {
+    font-size: 2vw; /* Responsive font size */
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .signup-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(165, 155, 155, 0.7);
+  }
+  
+  .signup-container .form-group {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .signup-container label {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: black!important;
+
+  }
+  
+  .signup-container input[type="email"], input[type="password"], input[type="text"], input[type="confirmpassword"] {
+    width: 95%!important;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #eaeaea;
+    font-family: "Poppins", sans-serif;
+    color: black!important;
+  }
+  
+  .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d1b89;;
+    color: white;
+    border-radius: 4px;
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .signup-container button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color:#0d1b897a;
+  }
+  
+  .signup-container h2 {
+    font-size: 2.5em; /* Responsive font size */
+    color: #0d1b89;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 0.5em;
+  }
+  
+  .signup-container .underline {
+    width: 65px;
+    height: 6px;
+    background-color: #0d1b89;;
+    border-radius: 9px;
+    margin: auto;
+  }
+  
+  @keyframes fadeDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeSide {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

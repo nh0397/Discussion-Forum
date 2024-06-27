@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.app {
+  text-align: center;
+  overflow: hidden;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* nav a {
+  color: #61dafb;
+  margin: 0 10px;
+  text-decoration: none;
+} */
+
+form {
+  margin-top: 20px;
+}
+
+input[type="email"], input[type="password"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* button:hover {
+  background-color: #519aba;
+} */
+
+.navbar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #24252A; */
+  background-color: #9ad0dd;
+}
+
+.navbar .li, .a, .button {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.navbar a{
+  color: #000000;
+  margin: 0 10px;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 15%;
+}
+
+/* .logo {
+  cursor: pointer;
+} */
+
+.navbar h1 {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.navbar button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+}
+
+.navbar button:hover {
+  background-color: rgba(0,136,169,.8);
+}
+
+.navbar input {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #eaeaea;
+    font-family: "Poppins", sans-serif;
+}
